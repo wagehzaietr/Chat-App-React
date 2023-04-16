@@ -57,7 +57,7 @@ const Message = ({ message, deleteMessage }) => {
   const { text } = message;
 
   const messageClass =
-    message.uid === auth.currentUser.uid ? "sent" : "receved";
+    message.uid === auth.currentUser.uid ? "sent" : "received";
 
   return (
     <div>
