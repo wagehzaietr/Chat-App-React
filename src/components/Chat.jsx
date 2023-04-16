@@ -20,6 +20,10 @@ const Main = styled.div`
   position: relative;
   overflow-y: scroll;
   height: 80vh;
+  scroll-behavior: smooth;
+  ::-webkit-scrollbar{
+    display: none;
+  }
 `;
 
 const Chat = () => {
