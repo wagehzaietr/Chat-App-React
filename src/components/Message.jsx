@@ -34,22 +34,29 @@ const Messagediv = styled.div`
 
   &.sent {
     margin-left: auto;
+    color: #eaeaea;
     background: linear-gradient(45deg, #b11eb166, #317fd9);
-    color: #fff;
     border-radius: 1rem 1rem 0 1rem;
     padding: 0.5rem 1rem;
     float: right;
     margin: 1rem;
+    font-weight: 500;
   }
 
   &.received {
     margin-right: auto;
-    background: linear-gradient(45deg, #b11eb166, #317fd9);
-    color: #1c1c1c;
+    background: rgb(93, 79, 128);
+    background: linear-gradient(
+      183deg,
+      rgba(93, 79, 128, 1) 4%,
+      rgba(188, 122, 255, 1) 89%
+    );
+    color: #eaeaea;
     border-radius: 1rem 1rem 0 1rem;
     padding: 0.5rem 1rem;
     float: left;
     margin: 1rem;
+    font-weight: 500;
   }
 `;
 
