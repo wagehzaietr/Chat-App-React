@@ -43,12 +43,12 @@ const Messagediv = styled.div`
   }
 
   &.received {
-    margin-left: auto;
-    background-color: #e5e5ea;
+    margin-right: auto;
+    background: linear-gradient(45deg, #b11eb166, #317fd9);
     color: #1c1c1c;
     border-radius: 1rem 1rem 0 1rem;
     padding: 0.5rem 1rem;
-    float: right;
+    float: left;
     margin: 1rem;
   }
 `;
