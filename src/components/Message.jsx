@@ -71,7 +71,7 @@ const Message = ({ message, deleteMessage }) => {
         />
         <p className="name">{message.name}</p>
         <p>{text}</p>
-        <button onClick={() => deleteMessage(message.id)} >remove</button>
+        {/* <button onClick={() => deleteMessage(message.id)} >remove</button> */}
       </Messagediv>
     </div>
   );
