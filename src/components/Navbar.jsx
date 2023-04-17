@@ -13,11 +13,11 @@ const Container = styled.nav`
   align-items: center;
   padding-left: 3rem;
   padding-right: 3rem;
-  background-color: #edededdd;
+  background-color: #edededb8;
   @media only screen and (max-width: 600px) {
         flex-direction: column;
         text-align: center;
-        background-color: #e1e1e171;
+        background-color: #edededb8;
         padding-top: 1rem;
     }
 
