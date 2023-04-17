@@ -4,7 +4,7 @@ import rightimg from '../assets/chat.png'
 import github from '../assets/github.png'
 
 const Section = styled.section`
-    height: 100vh;
+    height: 100%;
     padding: 3.2rem;
     display: flex;
     align-items: center;
@@ -12,14 +12,14 @@ const Section = styled.section`
     background: #edededb8;
     @media only screen and (max-width: 600px) {
         flex-direction: column;
-        padding: 1rem;
         text-align: center;
-        padding-top: 8rem;
+        padding-top: 5rem;
+        
     }
 
     .left{
         flex: 1;
-        padding: 1rem;
+        padding-top: 3rem;
 
         img{
             margin-top: 1rem;

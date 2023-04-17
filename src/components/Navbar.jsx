@@ -18,7 +18,6 @@ const Container = styled.nav`
         flex-direction: column;
         text-align: center;
         background-color: #edededb8;
-        padding-top: 1rem;
     }
 
 
@@ -60,6 +59,7 @@ const Container = styled.nav`
       @media only screen and (max-width: 600px) {
         width: 100%;
         margin-bottom: 1rem;
+        
     }
       cursor: pointer;
     }
