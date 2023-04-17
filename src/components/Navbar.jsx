@@ -3,7 +3,8 @@ import styled from "styled-components";
 import Logo from "../assets/logo.png";
 import { SignIn } from "../Index";
 
-const Nav = styled.nav``;
+const Nav = styled.nav`
+`;
 
 
 
@@ -12,7 +13,7 @@ const Container = styled.nav`
   align-items: center;
   padding-left: 3rem;
   padding-right: 3rem;
-  background-color: #edededb8;
+  background-color: #edededdd;
   @media only screen and (max-width: 600px) {
         flex-direction: column;
         text-align: center;

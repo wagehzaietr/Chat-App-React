@@ -8,6 +8,7 @@ import { getFirestore } from "firebase/firestore";
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+
 const firebaseConfig = {
   apiKey: "AIzaSyBuEyH1RTuueorBnbDIJsAcH7jUZZ7N1y4",
   authDomain: "react-chatapp-ce59f.firebaseapp.com",

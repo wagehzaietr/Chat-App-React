@@ -8,7 +8,7 @@ import {
 import React from "react";
 import styled from "styled-components";
 import { useEffect, useState, useRef } from "react";
-import { Message, SendMessage } from "../Index";
+import { LogOut, Message, SendMessage } from "../Index";
 import { query } from "firebase/firestore";
 import { db } from "../config/firsebase.config";
 import bg from "../assets/chatbg.jpg";
@@ -19,7 +19,7 @@ const Main = styled.div`
   padding: 10px;
   position: relative;
   overflow-y: scroll;
-  height: 80vh;
+  height: 86.9vh;
   scroll-behavior: smooth;
   ::-webkit-scrollbar{
     display: none;

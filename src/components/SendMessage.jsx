@@ -21,7 +21,7 @@ const Form = styled.form`
     font-size: 1.25rem;
     padding: 0.75rem;
     background: #cacaca9b;
-    color: #2a2a2a;
+    color: #202020;
     outline: none;
     border: none;
     box-shadow: 0 -3px 10px #50505049;
@@ -40,7 +40,6 @@ const Form = styled.form`
     outline: none;
     box-shadow: 0 -3px 10px #50505098;
     @media only screen and (max-width: 768px) {
-      border-radius: 50%;
       .send{
         width: 1.5rem;
       }

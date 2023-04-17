@@ -52,7 +52,7 @@ const Messagediv = styled.div`
       rgba(188, 122, 255, 1) 89%
     );
     color: #eaeaea;
-    border-radius: 1rem 1rem 0 1rem;
+    border-radius: 1rem 1rem 1rem 0rem;
     padding: 0.5rem 1rem;
     float: left;
     margin: 1rem;
@@ -78,7 +78,7 @@ const Message = ({ message, deleteMessage }) => {
         />
         <p className="name">{message.name}</p>
         <p>{text}</p>
-        {/* <button onClick={() => deleteMessage(message.id)} >remove</button> */}
+        <button onClick={() => deleteMessage(message.id)} >remove</button>
       </Messagediv>
     </div>
   );
