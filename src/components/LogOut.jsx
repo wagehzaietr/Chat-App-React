@@ -13,6 +13,7 @@ const LogoutBtn = styled.div`
   padding: 0.5rem;
   background-color: #e1e1e17a;
   cursor: pointer;
+  position: sticky;
 
   .logodiv {
     flex: 1;

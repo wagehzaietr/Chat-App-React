@@ -4,7 +4,7 @@ import rightimg from '../assets/chat.png'
 import github from '../assets/github.png'
 
 const Section = styled.section`
-    height: 82vh;
+    height: 100vh;
     padding: 3.2rem;
     display: flex;
     align-items: center;
@@ -47,6 +47,7 @@ const Section = styled.section`
 
         img{
             transform: scale(0.8);
+            padding-bottom: 7rem;
         }
     }
        
