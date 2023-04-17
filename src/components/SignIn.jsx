@@ -9,7 +9,7 @@ import styled from "styled-components";
 const Wrapper = styled.div`
   .btn {
     @media only screen and (max-width: 600px) {
-      transform: scale(.7);
+      transform: scale(1);
     }
   }
 `;
